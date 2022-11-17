@@ -9,7 +9,7 @@ import java.util.Map;
  * 
  * @LastEditors: Changwei Cao
  * 
- * @LastEditTime: 2022-11-17 13:43:14
+ * @LastEditTime: 2022-11-17 13:55:43
  * 
  * @Description: 运用哈希表算出两数之和 时间复杂度 O(n)，空间复杂度 O(n)
  */
@@ -21,7 +21,7 @@ class test {
         // int[] nums = { 3, 2, 4 };
         // int target = 6;
 
-        int[] nums = { 3, 3 };
+        int[] nums = { 3, 3, 7 };
         int target = 6;
 
         System.out.println(Arrays.toString(twoSum(nums, target)));
