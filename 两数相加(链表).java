@@ -2,7 +2,7 @@
  * @Author: Changwei Cao
  * @Date: 2022-11-18 12:15:15
  * @LastEditors: Changwei Cao
- * @LastEditTime: 2022-11-18 12:27:43
+ * @LastEditTime: 2022-11-18 12:42:15
  * @Description: 两数(链表形式)相加 
  */
 class test {
@@ -30,7 +30,7 @@ class test {
             l2 = l2 == null ? null : l2.next;
         }
 
-        return dummy;
+        return dummy.next;
     }
 }
 
